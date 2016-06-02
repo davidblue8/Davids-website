@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>David's Website</title>
+       <style>
+            body {
+                background: rgb(125, 198, 205);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+                 
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            [id=all-contents] {
+                max-width: 800px;
+                margin: auto;
+               
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(239, 80, 41);
+                margin: 0 auto;
+                margin-bottom:20px;
+                display: flex;
+                padding: 10px;
+                border-radius:20px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+                 border-radius:20px;
+            }
+            [class=sidebar] {
+                margin-right: 25px;
+                padding: 10px;
+                border-radius:20px;
+            }
+            [class=sidebar] img {
+                width: 200px;
+            }
+            [class=content] {
+                flex: 1;
+                padding: 15px;
+            }
+            [class=interests] header {
+                font-size: 1.25em;
+            }
+        </style>
+   </head> 
+   <body>
+       <div id = "all-content">
+           <nav>
+              <ul>
+                  <li><a href = "index.html">Home</a></li>
+                  <li><a href = "Porfolio.html">Porfolio</a></li>
+              
+               
+           </nav>
+           <main>
+               <div class = "sidebar">
+                   <img src="https://c2.staticflickr.com/6/5126/5288787978_3c612f037c_b.jpg "></img>
+               </div>
+               <div class = "content">
+                   <header>David Allen Website</header>
+                   <p>My name is David Allen and I was born and raised in New Orleans, Louisiana. 
+                   Although I have spent most of my live in New Orleans I have lived in other states. 
+                   During hurricane Katrina my family in moved to Atlanta and lived there for four years.
+                   After that my father and I moved to Bakersfield, California for the next three years and I’m currently back in New Orleans.
+                   While I’m here back in New Orleans I have picked up the hobby/future career of photography/videography. I also like video games, Like every typical boy, driving and solitude one and a while. 
+                   I’m will be going to college in a major of photojournalism or mass communication.
+
+                    </p>
+                    <section class = interest>
+                        <header>interest</header>
+                        <ul>
+                            <li>Coding</li>
+                            <li>aviation</li>
+                            <li>space</li>
+                            
+                        </ul>
+                        
+                        
+                    </section>
+               </div>
+           </main>
+       </div>
+       
+   </body>
+</html>
